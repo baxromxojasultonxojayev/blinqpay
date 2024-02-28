@@ -1,0 +1,111 @@
+@media (max-width: 600px) {
+  .nav {
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  .nav .logo {
+    width: 111px;
+  }
+  .nav .menu {
+    display: none;
+  }
+  .nav .hamburger {
+    display: block;
+  }
+
+  .nav .buttons {
+    display: none;
+  }
+  .main {
+    display: block;
+    background-image: url("./image/mobileMainBackground.png");
+    height: 75vh;
+  }
+
+  .left-side {
+    width: 80%;
+    margin-left: 4%;
+  }
+  .left-side .title {
+    font-size: 38px;
+  }
+
+  .left-side .context {
+    font-size: 14px;
+  }
+
+  .right-side .image1 {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left: 20%;
+    top: 100px;
+  }
+
+  .right-side .image2 {
+    width: 150px;
+    top: 220px;
+    right: 3%;
+  }
+
+  .payment-list {
+    display: none;
+  }
+  .share {
+    width: 100%;
+    padding: 0 35px;
+  }
+
+  .share-title {
+    font-size: 24px;
+  }
+
+  .share p {
+    font-size: 12px;
+    padding-top: 12px;
+  }
+
+  .share-context {
+    font-size: 14px;
+  }
+
+  .share-context img {
+    display: none;
+  }
+  .payment-type {
+    flex-direction: column-reverse;
+  }
+  .payment-type:nth-last-child(2) {
+    flex-direction: column-reverse;
+  }
+
+  .card {
+    margin-top: 57px;
+    width: 90%;
+  }
+
+  .card .title {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .card-title {
+    font-size: 24px;
+    display: flex;
+  }
+  .card-title .second-title {
+    margin-left: 20px;
+  }
+
+  .card .text {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .card img {
+    display: none;
+  }
+  .payment-type .tablet {
+    width: 100%;
+  }
+}
