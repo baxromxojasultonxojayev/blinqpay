@@ -108,4 +108,11 @@
   .payment-type .tablet {
     width: 100%;
   }
+
+  .customer {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
 }

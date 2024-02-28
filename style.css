@@ -362,3 +362,99 @@ body {
   border-radius: 4px;
   color: white;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 120px;
+  padding-top: 200px;
+  padding-bottom: 139px;
+  background-color: rgba(33, 9, 51, 1);
+}
+
+.footer .container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 118px;
+}
+
+.footer .socila-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  margin-top: 30px;
+}
+.social-item {
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+.social-item:hover {
+  background: purple;
+  transition: 1s;
+}
+
+.footer-text {
+  display: flex;
+  margin-top: 54px;
+}
+
+.footer-text img {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-text .text {
+  display: block;
+  color: rgba(133, 120, 133, 1);
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 11px;
+}
+.text span {
+  display: block;
+  padding: 0 0 3.5px 0;
+}
+
+.services .title {
+  margin-top: 10px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+}
+
+.footer-list {
+  padding-top: 30px;
+}
+
+.footer-item {
+  padding-top: 20px;
+}
+
+.footer-item a {
+  color: rgba(133, 120, 133, 1);
+}
+.footer-item a:hover {
+  color: red;
+  transition: 1s;
+}
+
+.product .title {
+  margin-top: 10px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+}
+
+.company .title {
+  margin-top: 10px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+}
