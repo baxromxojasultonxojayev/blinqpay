@@ -110,9 +110,68 @@
   }
 
   .customer {
+    margin-top: 50px;
+    display: block;
+    background-image: none;
+    background: linear-gradient(
+      0,
+      rgba(0, 181, 208, 1) 1.75%,
+      rgba(92, 14, 98, 1) 99.75%
+    );
+    padding: 20px;
+    padding-top: 7px;
+  }
+
+  .left-contenxt {
+    width: 100%;
+  }
+
+  .left-contenxt .opinion {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .left-contenxt .text {
     display: none;
   }
-  .footer {
+  .right-context {
+    width: 100%;
+  }
+  .customer-image {
+    display: block;
+    padding-top: 74px;
+    padding-bottom: 47px;
+  }
+
+  .customer-opinion {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .right-context .images {
     display: none;
+  }
+  .customer-name {
+    font-size: 21.12px;
+    padding-top: 34px;
+  }
+  .customer .waiting {
+    display: none;
+  }
+  .footer .container {
+    display: block;
+    text-align: center;
+  }
+  .footer .socila-list {
+    display: none;
+  }
+
+  .socila-list-mobile {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-top: 30px;
   }
 }
